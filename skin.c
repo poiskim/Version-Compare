@@ -10,9 +10,9 @@
 
 #define PATHMAX 4048
 
-char buf[4048];
-char fpath[4048];
-char spath[4048];
+char buf[PATHMAX];
+char fpath[PATHMAX];
+char spath[PATHMAX];
 
 void skinning_dir(DIR *);
 void skinning_file(char *, char *);
